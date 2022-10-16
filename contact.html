@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <header>
+      <p>
+        <em>
+          <strong>
+            <a href="index.html">
+              Homepage
+            </a>
+          </strong>
+        </em>
+      </p>      <p>
+        Mobile Number: +977-9806761678<br/>
+        Email: ujjalshrestha061@gmail.com
+      </p>
+    </header>
+    <hr/>
+    <main>
+      <section>
+        <h3>Leave your details here</h3>
+        <form action="mailto:ujjalshrestha061@gmail.com" method="post">
+          <label for="name-input">
+            Enter you name:   <input id="name-input" type="text" placeholder="Ujjal Shrestha" required />
+          </label>
+          <br/>
+          <label for="email-input">
+            Enter your email: <input type="text" id="email-input" required placeholder="mymail@hotmail.com"/>
+          </label>
+          <br/>
+          <label for="color-input">
+            Choose your favourite color: <input type="color" id="color-input" required value="color"/>
+          </label>
+          <br/>
+          <label for="file-input">
+            Choose a file: <input type="file" id="file-input" required value="file"/>
+          </label>
+          <fieldset>
+              <legend>What do you want me to do?</legend>
+              <input type="checkbox" name="preference" value="Call" id="call"/>
+              <label for="call">Call you</label>
+
+              <br/>
+              <input type="checkbox" name="preference" id="email" value="Call"/>
+              <label for="email">Email you</label>
+          </fieldset>
+          <label for="textarea-input">
+            What do you want to tell us?
+            <br/>
+            <textarea name="textarea1" value="first-textarea" rows="10" cols="30"></textarea>
+            <br/>
+          </label>
+          <input type="submit" value="Submit my info"/>
+
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
